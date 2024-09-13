@@ -1,6 +1,6 @@
 syntax = "proto3";
-
-option java_package = "org.aryak.model";
+package sec01;
+option java_package = "org.aryak.model.sec01";
 
 message Person {
   string name = 1;
