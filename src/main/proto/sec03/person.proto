@@ -10,4 +10,11 @@ message Person {
   int64 account_number = 4;
   bool employed = 5;
   float height = 6;
+  Address address = 7;
+}
+
+message Address {
+  string street = 1;
+  string city = 2;
+  int64 zip_code = 3;
 }
