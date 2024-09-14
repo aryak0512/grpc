@@ -1,6 +1,13 @@
 syntax = "proto3";
+
+// the package of this proto file
 package sec01;
+
+// package in which generated classes should reside
 option java_package = "org.aryak.model.sec01";
+
+// split the outer class and main class
+option java_multiple_files = true;
 
 message Person {
   string name = 1;
