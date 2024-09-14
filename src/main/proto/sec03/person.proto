@@ -1,0 +1,13 @@
+syntax = "proto3";
+package sec03;
+option java_package = "org.aryak.model.sec03";
+option java_multiple_files = true;
+
+message Person {
+  string name = 1;
+  int32 age = 2;
+  sint32 balance = 3;
+  int64 account_number = 4;
+  bool employed = 5;
+  float height = 6;
+}
