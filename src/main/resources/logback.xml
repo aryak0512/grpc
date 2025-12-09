@@ -1,4 +1,3 @@
-<!-- http://dev.cs.ovgu.de/java/logback/manual/layouts.html -->
 <configuration>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
