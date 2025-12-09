@@ -24,3 +24,11 @@ This snippet in pom.xml downloads the compiler needed to read .proto files and g
     </executions>
 </plugin>
 ```
+
+Working of proto compiler
+
+When we run mvn clean install, under target directory, we find the OS specific compiler being downloaded:
+```
+target/protoc-plugins/protoc-3.25.5-osx-aarch_64.exe
+```
+This protoc sees the .proto file under ``src/main/proto`` and creates its corresponding java files under ``generated-sources``
